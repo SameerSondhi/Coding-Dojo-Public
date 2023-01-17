@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Button Clicker</title>
+</head>
+<body>
+    <!-- NAVIGATION BAR -->
+    <div class="nav">
+        <h1 class = "title">Dojonary</h1>
+        <input class="search-bar" type = "text" placeholder = " Search">
+        <button onclick = "displayLogout(this)" class = "login">Login</button>
+    </div>
+
+    <!-- PARENT CONTAINER FOR ALL CONTENT DIVS -->
+    <div id = "total_container">
+
+        <!-- LEFT SIDE -->
+        <div class="left-div">
+            <!-- FIRST DEFINITION -->
+            <div class="upper-box">
+                <h1 class = "word">ninja</h1>
+                <h3 class = "type-of-word"><em>noun</em></h3>
+                <h5 class = "plural">Plural: <em>ninjas</em></h5>
+                <h4 class = "definition1">A practitioner skilled in the <br> <a href = "#">Japanese</a> art of <a href = "#">ninjutsu</a></h4>
+                <button onclick = "alert('Ninja was liked')" class = "like-button1">13 Likes</button>
+            </div>
+
+            <!-- SECOND DEFINITION -->
+            <div class="lower-box">
+                <h1 class = "word">ninja</h1>
+                <h3 class = "type-of-word"><em>noun</em></h3>
+                <h5 class = "plural">Plural: <em>ninjas</em></h5>
+                <h4 class = "definition2">A <a href = "#">programmer</a> that breaks <br> down problems with <a href = "#">zen</a>-like <br> focus</h4>
+                <button onclick = "alert('Ninja was liked')" class = "like-button2">37 Likes</button>
+            </div>
+        </div>
+
+        <!-- RIGHT SIDE -->
+        <div class="right-div">
+            <div class="add_definition_box">
+                <h2 class = "call-to-action">Dojonary is <br> defined by <span class = "all-caps">YOU</span></h2>
+                <button onclick = "makeButtonDisappear(this)" class="add_button">Add Definition</button>
+            </div>
+        </div>
+
+    </div>
+    <!-- LINKING .JS FILE -->
+    <script src="script.js"></script>
+</body>
+</html>

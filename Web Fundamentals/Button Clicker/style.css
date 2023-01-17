@@ -1,0 +1,145 @@
+/* CSS RESET */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#total_container{
+    height: 540px;
+    width: 720px;
+    border: 0.5px solid black;
+    margin: 0 auto;
+}
+
+/* NAV BAR */
+.nav{
+    height: 60px;
+    width: 720px;
+    background-color: grey;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+
+.title{
+    margin-top: 10px;
+    margin-left: 20px;
+    font-family: "Roboto";
+    font-weight: normal;
+}
+.search-bar{
+    padding-right: 60px;
+    margin-top: 18px;
+    width: 200px;
+    height: 25px;
+    border: 2px solid black;
+}
+
+.login{
+    width: 70px;
+    height: 25px;
+    background-color: blue;
+    color: white;
+    margin-top: 18px;
+    margin-right: 20px;
+    box-shadow: 4px 4px black;
+}
+
+/* LEFT SIDE */
+.left-div{
+    height: 600px;
+    width: 420px;
+    /* border: 4px solid green; */
+    margin-left: 0px;
+    font-family: "Roboto";
+}
+
+.upper-box{
+    margin-left: 0px;
+    height: 200px;
+    width: 450px;
+    border: 2px solid black;
+    margin-top: 40px;
+}
+
+.lower-box{
+    margin-left: 0px;
+    height: 200px;
+    width: 450px;
+    border: 2px solid black;
+    margin-top: 40px;
+}
+
+.word{
+    margin-left: 15px;
+    padding-top: 20px;
+}
+
+.type-of-word{
+    margin-left: 22px;
+    padding-top: 15px;
+}
+
+.plural{
+    margin-left: 12px;
+    margin-top: 15px;
+}
+
+.definition1{
+    margin-left: 150px;
+    margin-top: -30px;
+}
+
+.definition2{
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+.like-button1{
+    width: 85px;
+    height: 35px;
+    margin-left: 12px;
+    margin-top: 12px;
+    background-color: gold;
+    box-shadow: 4px 4px black;
+}
+
+.like-button2{
+    width: 85px;
+    height: 35px;
+    margin-left: 12px;
+    background-color: gold;
+    box-shadow: 3px 3px black;
+}
+
+/* RIGHT SIDE */
+.right-div{
+    height: 160px;
+    width: 237px;
+    border: 2px solid black;
+    margin-left: 480px;
+    margin-top: -600px;
+}
+
+.add_button{
+    height: 30px;
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 30px;
+    background-color: rgb(122, 200, 6);
+    font-family: "Roboto";
+    font-weight: bold;
+    box-shadow: 4px 4px black;
+}
+
+.call-to-action{
+    font-family: "Roboto";
+    margin-left: 15px;
+    margin-top: 15px;
+
+}
+.all-caps{
+    font-family: "Roboto";
+    font-weight: bolder;
+}
+

@@ -1,0 +1,51 @@
+/* CSS RESET */
+* {
+    margin: 5px;
+    padding:0;
+}
+
+.nav{
+    background-color: rgb(79, 78, 78);
+    width: 800px;
+    color: white;    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+}
+
+.nav-title{
+    margin-left: 20px;
+    font-family: "Roboto";
+    font-weight: normal;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+
+.btn {
+    height: 25px;
+    width: 75px;
+    background-color: rgb(6, 157, 160);
+    color:white;
+    box-shadow: 2px 3px black;
+    border-color: black;
+    font-family: "Roboto";
+}
+
+.active {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+}
+
+a {
+    color: white;
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: "Roboto";
+}

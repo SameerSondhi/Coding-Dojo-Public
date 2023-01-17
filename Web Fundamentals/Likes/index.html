@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Liking Likes Part 2</title>
+</head>
+<body>
+        <!-- MAIN CONTAINER -->
+        <div id = "container">
+        <!-- Nav Bar -->
+        <div class="nav">
+            <h2>Network</h2>
+        </div> 
+        
+        <!-- Your Feed Section -->
+        <div class="heading">
+            <h2>Your Feed</h2>
+        </div>
+
+        <!-- User avatar and profile box -->
+        <div class="user-avatar">
+            <img class = "image-circle" src="imgs/user-circle.png" alt= "user_circle">
+            <a class = "avatar-link" href = "#">Add an avatar</a>
+            <p class = "name">James Doe</p>
+        </div>
+
+        <div class = "box-wrapper">
+        <!-- First user's box -->
+        <div class = "first-box">
+            <h3 class = "username">Neil M</h3>
+            <h4 id = "like-counter">0 Like(s)</h4>
+            <button onclick = "change()" id = "like-button">Like</button>
+        </div>
+        <div class = "fillertext">
+            <h4 class = "filler-text">I just set up this new discord bot, let me <br>know what you all think. <a href = "#">link</a></h4>
+        </div>
+        
+        <!-- Second user's box -->
+        <div class = "second-box">
+            <h3 class = "username2">Nichole K</h3>
+            <h4 id = "like-counter2">0 Like(s)</h4>
+            <button onclick = "change2()" id = "like-button2">Like</button>
+        </div>
+        <div class = "fillertext">
+            <h4 class = "filler-text">Just finished my <a href = "#">next comic</a>, check it out.</h4>
+        </div>
+        
+        <!-- Third user's box  -->
+            <div class = "third-box">
+            <h3 class = "username3">Jim R</h3>
+            <h4 id = "like-counter3">0 Like(s)</h4>
+            <button onclick = "change3()" id = "like-button3">Like</button>
+        </div>
+        <div class = "fillertext">
+            <h4 class = "filler-text">I can't stop listening to the <a href = "#">new album</a>. <br>Who else is liking it?</h4>
+        </div> 
+    </div>
+</div>
+        <script src="script.js"></script>
+</body>
+</html>
